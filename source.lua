@@ -23,7 +23,7 @@ function library:setTitle(text : string)
         libTitle.Parent = game.StarterGui.NewLibrary.libFrame
         libTitle.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
         libTitle.BorderSizePixel = 0
-        libTitle.Size = UDim2.new(0, 399, 0, 24)
+        libTitle.Size = UDim2.new(1.00000036, 0, 0.0891264975, 0)
         libTitle.Font = Enum.Font.FredokaOne
         libTitle.Text = text
         libTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
