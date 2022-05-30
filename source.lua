@@ -14,7 +14,7 @@ function library:createGui()
     libFrame.Size = UDim2.new(0.105246596, 0, 0.157902971, 0)
 end
 
-function library:setTitle(text)
+function library:setTitle(text : string)
     if not libFrame.libTitle then
         local libTitle = Instance.new("TextLabel")
         local UICorner = Instance.new("UICorner")
