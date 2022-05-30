@@ -14,11 +14,4 @@ function player:setJumpPower(plr : string, value : NumberValue)
     end
 end
 
-function player:kick(plr : string, reason : string)
-    local player = game.Players[plr]
-    if player and player.Character then
-        player:Kick(reason)
-    end
-end
-
 return player
